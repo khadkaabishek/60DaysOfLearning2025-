@@ -1,0 +1,22 @@
+
+
+
+
+Continuing my Backend Journey with Leapfrog 2025 ... [^_^]
+
+TypeScript’s built-in utility types can significantly
+reduce boilerplate and enhance type safety
+
+Types : 
+1. Partial<T> – Makes all properties optional
+2. Required<T> – Forces all properties to be required
+3. Readonly<T> – Makes properties immutable
+4. Pick<T, K> – Selects specific keys from a type
+5. Omit<T, K> – Excludes specific keys from a type
+6. Record<K, T> – Constructs a type with keys K and values of type T
+Truly, these utilities made working with complex types way more intuitive and clean! 
+
+// Swipe left to view kode :)
+
+
+
