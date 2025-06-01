@@ -1,8 +1,10 @@
 
 
+Contd ...
 
-
-Continuing my Backend Journey with Leapfrog 2025 ... [^_^]
+Day1 Of Learning,
+I explored Utility Types in TypeScript,
+and it was a game-changer!
 
 TypeScript’s built-in utility types can significantly
 reduce boilerplate and enhance type safety
