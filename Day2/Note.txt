@@ -1,0 +1,43 @@
+
+
+
+
+Day2 Of Learning,
+Today, I explored two powerful features in TypeScript: Mapped Types and Conditional Types.
+
+Mapped types:
+Mapped types allow you to create new types by transforming properties of an existing type.
+
+Syntax  ...
+type NewType = {
+    [K in keyof OldType]: ModifiedType
+  };
+
+Use Examples : 
+1. Making All Properties Optional
+2. Converting All Property Types
+3. Readonly Properties
+4. Wrapping Properties in Promises
+5. Removing Nullable Fields
+6. Boolean Flags for Each Field
+etc.
+
+
+Conditional types
+Conditional types let you choose types based on conditions.
+
+Syntax  ... 
+T extends U ? X : Y;
+
+Use Examples : 
+1.Type Checks
+2. Filtering Union Types
+3. Checking for Arrays
+4. Inferring Return Types
+
+
+// Swipe left to view kode :)
+
+
+
+
