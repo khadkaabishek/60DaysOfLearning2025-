@@ -1,0 +1,49 @@
+
+
+🌟 Day 3 of Learning🌟
+Today, I explored how TypeScript handles Modules, Imports, Exports, and common issues that arise during compilation and execution.
+
+🎯 What I learned today:
+
+1. Module System in TypeScript
+- Uses ES Modules for structuring code across files.
+- Export using: export function greet() { ... }
+- Import using: import { greet } from './myLib.js';
+
+2. Types of Exports
+- Named Export: export function greet() {} → import { greet } from './file.js';
+- Default Export: export default function greet() {} → import greet from './file.js';
+- Multiple Exports are also supported.
+
+3. Import Paths
+- Always use correct relative paths (e.g., './file.js').
+- Avoid omitting './' or extensions when using ES modules.
+
+4. Common Issues & Fixes
+- Missing ".js" Extension: Always include it when using ES modules.
+- File Name Casing: macOS/Linux are case-sensitive. Import must match file name casing.
+- Compilation Errors: TypeScript does not auto-add ".js" in imports.
+
+5 tsconfig.json Configuration
+- Ensure the following:
+  "compilerOptions": {
+    "module": "ES6",
+    "target": "ES6",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "rootDir": "src"
+  }
+
+6. Workarounds for Import Path Issues
+- Manually add ".js" in imports.
+- Use tools like tscpaths to fix paths post-compilation.
+
+📌 Summary:
+✔ Use relative paths like './file.js'
+✔ Maintain consistent file name casing
+✔ Use bundlers in production
+✔ Configure tsconfig.json properly
+
+// Swipe left to view kode [^_^]
+
+
