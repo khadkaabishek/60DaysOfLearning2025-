@@ -1,0 +1,40 @@
+
+
+🌟 **Day 4 of Learning** 🌟
+Today, I explored how TypeScript handles **Error Handling** and **Advanced Types** — including how to create custom errors and extract types safely.
+
+---
+
+🎯 **What I learned today:**
+
+1. **Custom Error Handling**
+
+* You can extend the built-in `Error` class to create your own error types.
+* This helps catch and handle specific errors more precisely using `instanceof`.
+
+2. **The `typeof` Keyword**
+
+* `typeof` can be used at the type level to extract the type of a variable or object.
+* This helps reuse existing types without redefining them.
+
+3. **Type Inference with `infer`**
+
+* Conditional types combined with `infer` let you extract types from complex structures.
+* For example, extracting the return type from a function’s signature.
+
+4. **Utility Types like `ReturnType`**
+
+* TypeScript provides built-in utility types such as `ReturnType` to get a function’s return type easily.
+* This makes type extraction cleaner and reduces boilerplate code.
+
+---
+
+📌 **Summary:**
+✔ Extend Error for type-safe error handling
+✔ Use `typeof` to get types from variables/objects
+✔ Leverage `infer` inside conditional types to extract inner types
+✔ Prefer built-in utilities like `ReturnType` for cleaner code
+
+// Swipe left to view kode \[^\_^]
+
+
