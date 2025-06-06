@@ -1,10 +1,11 @@
 import express, { Request, Response } from "express";
-const req:Request;
 const app = express();
 const PORT = 3000;
 
-app.get("/", (req: Request, res: Response) => {
-    console.log(res);
+
+app.get("/", (req: any, res: any) => {
+    console.log(`Request data : ${Request}`);
+    // console.log(`Response data : ${Response}`);
   return res.json({
     msg: "get Request on /",
   });
