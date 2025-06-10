@@ -5,9 +5,12 @@ import ContextButton from "./components/contextController";
 import {ContextProvider} from "./components/counter";
 function App(){
   return <div className="App">
-    <MyButton onClick ={()=>{alert("Button Clicked")}} name = "Click Me"/>
-      <MyBookDataButton name ="click Me!!"/>
+    <MyButton onClick ={()=>{}} name = "Click Me"/>
+      <hr />
+      <MyBookDataButton name ="Swap Book Details"/>
+      <hr />
       <InputField></InputField>
+      <hr />
       <ContextProvider>
         <ContextButton></ContextButton>
       </ContextProvider>

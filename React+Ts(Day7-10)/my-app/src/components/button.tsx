@@ -11,7 +11,6 @@ interface ButtonProps {
       <button
         onClick={() => {
           setValue(value + 1);
-          
         }}
       >
         {name}

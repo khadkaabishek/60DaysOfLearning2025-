@@ -1,8 +1,9 @@
 import React from "react";
 import {UseCounter} from "../components/counter";
-const ContextButton:React.FC = (props)=>{
+const ContextButton:React.FC = ()=>{
     const context = UseCounter();
-    return (<>
+    return (
+    <>
     <h1 onClick={e=>context?.setCount(context?.value+1)}>{context?.value}</h1>
     </>);
 }

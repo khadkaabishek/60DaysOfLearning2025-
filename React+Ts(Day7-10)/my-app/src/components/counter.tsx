@@ -8,19 +8,19 @@ interface CounterContextValue{
     setCount :(num : number) =>void
 }
 const CounterContext = createContext<null|CounterContextValue>(null);
-export const UseCounter =()=>{
-    return useContext(CounterContext);
-}
 export  const ContextProvider:React.FC<ContextProviderProps>= (props)=>{
     const [count,setCount]= useState<number>(1);
     return (
         <>
-        <CounterContext value={{
+        <CounterContext.Provider value={{
             value : count,
             setCount
         }}>
             {props.children}
-        </CounterContext>
+        </CounterContext.Provider>
         </>
     );
 } 
+export const UseCounter =()=>{
+    return useContext(CounterContext);
+}
