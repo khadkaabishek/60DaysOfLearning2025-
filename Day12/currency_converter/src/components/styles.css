@@ -1,0 +1,386 @@
+/* ====== General Reset & Font ====== */
+body {
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #e0e7ff 0%, #f8fafc 100%);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* ====== Container & Layout ====== */
+  .converter-container {
+    max-width: 480px;
+    margin: 3rem auto;
+    padding: 2.5rem 2rem 2rem 2rem;
+    background: rgba(255,255,255,0.85);
+    border-radius: 1.7rem;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.13);
+    border: 1.5px solid #e0e7ff;
+  }
+  
+  .converter-header {
+    text-align: center;
+    margin-bottom: 2.2rem;
+  }
+  
+  .converter-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #1d3557;
+    letter-spacing: 1.5px;
+    margin-bottom: 0.3rem;
+  }
+  
+  .converter-subtitle {
+    color: #457b9d;
+    font-size: 1.08rem;
+    margin-bottom: 0.7rem;
+    font-weight: 500;
+  }
+  
+  .last-updated {
+    font-size: 0.98rem;
+    color: #6c757d;
+    margin-top: 0.2rem;
+  }
+  
+  /* ====== Main Converter Box ====== */
+  .converter-box {
+    background: rgba(239,246,255,0.75);
+    border-radius: 1.2rem;
+    padding: 1.4rem 1.1rem 1.1rem 1.1rem;
+    box-shadow: 0 4px 24px 0 rgba(61,90,254,0.07);
+    margin-bottom: 1.7rem;
+    transition: box-shadow 0.2s;
+  }
+  
+  .converter-box:hover {
+    box-shadow: 0 8px 32px 0 rgba(61,90,254,0.13);
+  }
+  
+  .converter-grid {
+    display: flex;
+    gap: 1.3rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .input-section, .output-section {
+    flex: 1 1 180px;
+    min-width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+  }
+  
+  /* ====== Currency Selector ====== */
+  .space-y-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #1d3557;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+    letter-spacing: 0.5px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border-radius: 0.7rem;
+    border: 1.5px solid #a8dadc;
+    background: #fff;
+    font-size: 1.1rem;
+    color: #222;
+    font-weight: 500;
+    transition: border 0.2s, box-shadow 0.2s;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(69,123,157,0.07);
+  }
+  
+  select:focus {
+    border: 1.5px solid #457b9d;
+    background: #e0f2fe;
+  }
+  
+  /* ====== Amount Input ====== */
+  input[type="number"] {
+    width: 100%;
+    padding: 0.7rem 1rem 0.7rem 2.5rem;
+    border-radius: 0.7rem;
+    border: 1.5px solid #a8dadc;
+    background: #fff;
+    font-size: 1.2rem;
+    color: #1d3557;
+    font-weight: 600;
+    transition: border 0.2s, box-shadow 0.2s;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(69,123,157,0.07);
+  }
+  
+  input[type="number"]:focus {
+    border: 1.5px solid #457b9d;
+    background: #e0f2fe;
+  }
+  
+  input[type="number"]::placeholder {
+    color: #b0b7c3;
+    font-weight: 500;
+    opacity: 1;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .left-3 {
+    left: 0.8rem;
+  }
+  
+  .top-1\/2 {
+    top: 50%;
+  }
+  
+  .transform {
+    transform: translateY(-50%);
+  }
+  
+  /* ====== Controls (Swap/Refresh) ====== */
+  .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  
+  .control-buttons {
+    display: flex;
+    gap: 0.6rem;
+    margin-top: 0.2rem;
+  }
+  
+  .swap-button, .refresh-button {
+    background: linear-gradient(135deg, #457b9d 40%, #a8dadc 100%);
+    border: none;
+    border-radius: 50%;
+    width: 2.3rem;
+    height: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: box-shadow 0.2s, transform 0.15s;
+    box-shadow: 0 2px 8px rgba(69,123,157,0.13);
+    color: #fff;
+    font-size: 1.2rem;
+    outline: none;
+  }
+  
+  .swap-button:hover, .refresh-button:hover {
+    box-shadow: 0 4px 16px rgba(69,123,157,0.22);
+    transform: scale(1.09);
+  }
+  
+  .refresh-button:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+  }
+  
+  .refresh-icon.animate-spin {
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* ====== Conversion Display ====== */
+  .bg-gray-50 {
+    background: #f8fafc;
+  }
+  
+  .bg-red-50 {
+    background: #fef2f2;
+  }
+  
+  .bg-gradient-to-r {
+    background: linear-gradient(90deg, #e0f2fe 0%, #f3e8ff 100%);
+  }
+  
+  .border-blue-200 {
+    border: 1.5px solid #bfdbfe;
+  }
+  
+  .p-6 {
+    padding: 1.5rem;
+  }
+  
+  .rounded-lg {
+    border-radius: 1.1rem;
+  }
+  
+  .text-3xl {
+    font-size: 2rem;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .text-gray-900 {
+    color: #1e293b;
+  }
+  
+  .text-gray-600 {
+    color: #64748b;
+  }
+  
+  .text-gray-500 {
+    color: #6b7280;
+  }
+  
+  .text-gray-400 {
+    color: #94a3b8;
+  }
+  
+  .text-red-700 {
+    color: #b91c1c;
+  }
+  
+  .text-blue-500 {
+    color: #3b82f6;
+  }
+  
+  .text-red-500 {
+    color: #ef4444;
+  }
+  
+  .text-indigo-50 {
+    color: #eef2ff;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .space-y-3 > * + * {
+    margin-top: 0.75rem;
+  }
+  
+  .space-x-2 > * + * {
+    margin-left: 0.5rem;
+  }
+  
+  /* ====== Popular Rates Quick View ====== */
+  .popular-rates-box {
+    margin-top: 2.2rem;
+    background: rgba(168,218,220,0.23);
+    border-radius: 1.1rem;
+    padding: 1.3rem 1rem 1.1rem 1rem;
+    box-shadow: 0 1px 8px rgba(61,90,254,0.07);
+  }
+  
+  .popular-rates-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 1.1rem;
+    color: #1d3557;
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
+  
+  .popular-rates-grid {
+    display: flex;
+    gap: 1.1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .popular-rate-card {
+    background: rgba(255,255,255,0.93);
+    border-radius: 0.8rem;
+    padding: 0.85rem 1.2rem;
+    box-shadow: 0 1px 6px rgba(61,90,254,0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 84px;
+    transition: box-shadow 0.18s, transform 0.12s;
+  }
+  
+  .popular-rate-card:hover {
+    box-shadow: 0 4px 16px rgba(61,90,254,0.13);
+    transform: translateY(-3px) scale(1.04);
+  }
+  
+  .popular-rate-code {
+    font-size: 1.07rem;
+    font-weight: 700;
+    color: #457b9d;
+    letter-spacing: 0.5px;
+  }
+  
+  .popular-rate-value {
+    font-size: 1.12rem;
+    margin-top: 0.18rem;
+    color: #1d3557;
+    font-weight: 600;
+  }
+  
+  /* ====== Responsive ====== */
+  @media (max-width: 600px) {
+    .converter-container {
+      max-width: 98vw;
+      padding: 1.1rem 0.4rem 1.2rem 0.4rem;
+      border-radius: 1.1rem;
+    }
+    .converter-header {
+      margin-bottom: 1.1rem;
+    }
+    .converter-box {
+      padding: 1.1rem 0.6rem 0.8rem 0.6rem;
+      border-radius: 0.8rem;
+    }
+    .converter-grid {
+      flex-direction: column;
+      gap: 1.1rem;
+    }
+    .popular-rates-box {
+      padding: 0.8rem 0.3rem 0.7rem 0.3rem;
+      border-radius: 0.7rem;
+    }
+  }
+  
+  /* ====== Subtle Animations ====== */
+  .converter-container,
+  .converter-header,
+  .converter-box,
+  .popular-rates-box,
+  .bg-gradient-to-r {
+    animation: fadeIn 0.7s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(18px);}
+    to { opacity: 1; transform: none;}
+  }
+  
