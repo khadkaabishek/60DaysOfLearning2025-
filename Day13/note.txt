@@ -1,0 +1,44 @@
+
+
+🌟 Day 16 of Learning 🌟  
+Today, I focused on **React Router DOM with TypeScript** —  
+how to build multi-page apps using nested routes and layout components.
+
+---
+
+🎯 What I learned today:
+
+1. React Router DOM Basics**
+* Installed `react-router-dom` to manage routing.  
+* Used `<BrowserRouter>`, `<Routes>`, and `<Route>` to define paths and navigation.
+
+2. Layout Component and Navigation  
+* Created a `Layout.tsx` with a navbar and an `<Outlet />` to display child routes dynamically.  
+* `<Outlet />` is where the matched route component is rendered inside the layout.
+
+3. Nested Routes  
+* Defined child routes like Home, About, and Contact nested inside the layout route.  
+* The layout remains consistent (e.g., navbar), while page content changes with routing.
+
+4. Component Structure  
+* Organized code with `/pages` and `/components` folders for cleaner structure.  
+* Used `Link` for navigation without full page reload.
+
+5. Why Outlet is Necessary  
+* It enables building shared layouts that render different pages based on the URL.  
+* Makes UI scalable, modular, and easier to manage in larger apps.
+
+
+
+📌 Summary:  
+✔ Use `<BrowserRouter>` and `<Routes>` to enable routing  
+✔ Define shared UI (navbar, footer) in a `Layout` component  
+✔ Use `<Outlet />` as a placeholder for rendering nested routes  
+✔ Organize components for better code scalability and clarity
+
+// Swipe left to view kode  ⎝^ _ ^⎠
+
+
+
+
+
