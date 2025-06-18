@@ -1,0 +1,32 @@
+
+
+
+
+
+
+
+
+
+
+🌟 Day 18 of Learning 🌟
+Today, I explored using Zod as an Express validator and how to set up TypeScript correctly 
+in a backend project. From handling syntax issues in .js to switching over to proper .ts 
+with ts-node, it was a practical dive into type-safe validation.
+
+🎯 What I learned today:
+1️⃣ Difference between JS and TS syntax — like why : z.ZodSchema<any> broke .js files.
+2️⃣ Installed and configured typescript, ts-node, @types/node, and @types/express for proper TS support.
+3️⃣ Learned how to create a reusable validate() middleware using Zod.
+4️⃣ Successfully built a typed Express API endpoint with clean schema validation.
+5️⃣ Understood how Zod + TypeScript boosts code safety and improves error handling.
+
+📌 Summary:
+✔ Zod simplifies validation without extra boilerplate
+✔ TypeScript helped me catch and fix issues before runtime
+✔ Learned how to run .ts files using ts-node
+✔ Cleaner, safer, and more structured Express apps — thanks to TypeScript
+
+⎝^ _ ^⎠ Excited to keep going!
+
+
+
