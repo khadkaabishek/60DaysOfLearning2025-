@@ -2,7 +2,7 @@
 
 
 
-🌟 Day 64 of #111DaysOfLearningForChange 🌟
+🌟 Day 19 of #111DaysOfLearningForChange 🌟
 Today, I focused on auth protection in React with TypeScript —
 how to store JWT tokens securely in localStorage and build a <PrivateRoute /> wrapper for
  protected routes.
