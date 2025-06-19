@@ -1,0 +1,36 @@
+
+
+
+
+🌟 Day 64 of #111DaysOfLearningForChange 🌟
+Today, I focused on auth protection in React with TypeScript —
+how to store JWT tokens securely in localStorage and build a <PrivateRoute /> wrapper for
+ protected routes.
+
+🎯 What I learned today:
+
+Storing JWT in LocalStorage
+On successful login, I saved the received token using localStorage.setItem('token', token).
+This token can then be used to protect frontend routes and send with requests.
+Creating a PrivateRoute Wrapper
+I built a <PrivateRoute /> component that checks if a token exists in localStorage.
+If no token is found, it redirects the user to the /login page using <Navigate />.
+Protecting Routes in React Router
+Used <PrivateRoute> to wrap protected routes like /dashboard.
+Unauthorized users get redirected automatically.
+TypeScript Strictness
+Faced TypeScript issues with React.FC and JSX.Element, and learned to explicitly type children
+ as ReactNode and wrap it in a fragment.
+Cleaner Auth Architecture
+Centralized login, logout, and route protection logic for better maintainability.
+
+📌 Summary:
+✔ Stored JWT securely in localStorage after login
+✔ Built a custom <PrivateRoute /> to guard protected routes
+✔ Learned how to handle routing + redirection with react-router-dom
+✔ Got hands-on experience solving TypeScript typing issues
+✔ Frontend auth now feels way more secure and production-ready!
+
+// Swipe left to see the PrivateRoute code ⎝^ _ ^⎠
+
+
