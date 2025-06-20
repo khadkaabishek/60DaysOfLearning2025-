@@ -1,0 +1,39 @@
+
+
+
+
+🌟 Day 20 of Learning 🌟
+Today, I focused on **project setup for a Node.js + TypeScript backend with MongoDB** —
+laying the foundation with clean folder structure, tooling, and initial server connection.
+
+🎯 What I accomplished today:
+
+📦 Node + TypeScript Initialization
+Initialized a new Node.js project and set it up with TypeScript for better type safety and maintainability.
+
+🔧 Linting and Formatting
+Installed and configured ESLint and Prettier to enforce code style and auto-formatting.
+
+📁 Folder Structure (MVC)
+Created a clean folder structure:
+`controllers/`, `routes/`, `middlewares/`, `models/`, and `utils/` for maintainable architecture.
+
+🚀 Express Server Setup
+Built a basic Express server with a health-check route.
+
+🌱 MongoDB Integration
+Connected to MongoDB using Mongoose and handled success/error logging.
+
+🧠 User Schema
+Defined a basic User schema with fields: `name`, `email`, `password`, `role` (default: `'user'`), and `createdAt`.
+
+📌 Summary:
+✔ Initialized backend with Node + TypeScript
+✔ Setup ESLint, Prettier, and tsconfig for clean code
+✔ Created MVC-based folder structure
+✔ Connected Express server with MongoDB using Mongoose
+✔ Created a basic User schema to kick off authentication system
+
+// Let’s build something awesome — one day at a time ⚡
+
+
