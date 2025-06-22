@@ -1,0 +1,42 @@
+
+
+🌟 Day 22 of Learning 🌟
+Today, I focused on **Building a Login Feature with React Frontend and Express Backend**.
+I learned how to validate login credentials, use JWT for authentication, and manage navigation after login.
+
+🎯 What I learned today:
+1. React Login Form & Fetch API
+ Built a controlled login form using React with `email` and `password` fields.
+ Used the `fetch` API to POST login data to the backend `/login` endpoint.
+ Displayed success or error messages based on the server's response.
+ Saved the JWT token and user info in `localStorage` after login.
+
+2. Express Login Logic with Mongoose & JWT
+ Created a `/login` route handler in Express to:
+* Find the user by email
+* Validate the password using `comparePassword()`
+* Generate a JWT token with `jsonwebtoken`
+   Returned a JSON response with the token and user data on success.
+
+3. Protected Navigation After Login
+ Used `useNavigate()` from `react-router-dom` to redirect users to `/dashboard` after successful login.
+ Stored JWT token in localStorage for future authentication.
+
+5. Key Middleware & Best Practices
+✔ `express.json()` to parse incoming JSON requests
+✔ `bcrypt` for secure password validation
+✔ `jsonwebtoken` for signing and verifying auth tokens
+✔ Always handle both frontend and backend errors gracefully
+
+---
+
+### 📌 Summary:
+
+✔ Create a React login form with controlled inputs
+✔ Use `fetch` to send login data and handle server response
+✔ Generate and return a JWT from the backend securely
+✔ Store user/token in localStorage and redirect on success
+✔ Always use `express.json()` and proper error handling
+
+// Swipe left to view kode+progress  ⎝^ _ ^⎠
+
