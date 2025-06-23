@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-
+import { useNavigate } from "react-router-dom";
 const Signup: React.FC = () => {
+    const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -32,7 +33,8 @@ const Signup: React.FC = () => {
 
       if (response.ok) {
         setMessage("Signup successful!");
-        setFormData({ name: "", email: "", password: "" }); // clear form
+        // setFormData({ name: "", email: "", password: "" }); 
+        navigate("/login");
       } else {
         setMessage(result.message || "Signup failed.");
       }

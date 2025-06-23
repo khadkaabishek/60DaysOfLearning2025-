@@ -5,7 +5,7 @@ const bcrypt = require("bcrypt");
 async function handleSignup(req, res) {
   try {
     const { name, email, password } = req.body;
-    console.log("name : ", name);
+
     if (!name || !email || !password) {
       return res.status(400).json({ message: "All fields are required." });
     }
@@ -15,14 +15,14 @@ async function handleSignup(req, res) {
       return res.status(409).json({ message: "Email already registered." });
     }
 
-    const hashedPassword = await bcrypt.hash(password, 10);
+    // ✅ Do NOT hash manually — just pass plain password
     const newUser = new User({
       name,
       email,
-      password: hashedPassword,
+      password,
     });
 
-    await newUser.save();
+    await newUser.save(); // pre-save will hash the password
 
     return res.status(201).json({ message: "Signup successful!" });
   } catch (error) {

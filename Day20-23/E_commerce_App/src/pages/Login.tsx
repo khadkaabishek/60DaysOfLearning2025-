@@ -1,7 +1,12 @@
 import React, { useState } from "react";
-import "./Login.css"; 
+import "./Login.css";
 import { useNavigate } from "react-router-dom";
-const Login: React.FC = () => {
+
+type LoginProps = {
+  setIsAuthenticated: React.Dispatch<React.SetStateAction<boolean>>;
+};
+
+const Login: React.FC<LoginProps> = ({ setIsAuthenticated }) => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     email: "",
@@ -28,18 +33,16 @@ const Login: React.FC = () => {
       });
 
       const result = await response.json();
-      console.log("Server response:", result);
+      // console.log("Server response:", result);
 
-      if (response.ok) {
+      if (response.ok && result.token) {
         setMessage("✅ Login successful!");
         localStorage.setItem("token", result.token);
         localStorage.setItem("user", JSON.stringify(result.user));
-        
-        
-        // Inside handleSubmit, after setting token
-        navigate("/dashboard");
+        setIsAuthenticated(true);  // Update state here
+        navigate("/");
       } else {
-        setMessage(result.message || "❌ Login failed");
+        setMessage(result.error);
       }
     } catch (err) {
       console.log("Error Encountered: ", err);
@@ -59,6 +62,7 @@ const Login: React.FC = () => {
           value={formData.email}
           onChange={handleChange}
           placeholder="Enter your email"
+          required
         />
 
         <label htmlFor="password">Password:</label>
@@ -69,6 +73,7 @@ const Login: React.FC = () => {
           value={formData.password}
           onChange={handleChange}
           placeholder="Enter your password"
+          required
         />
 
         <button type="submit">Login</button>

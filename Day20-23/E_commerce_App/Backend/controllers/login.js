@@ -5,7 +5,7 @@ const JWT_SECRET = process.env.JWT_SECRET || "your_jwt_secret";
 
 async function handleLogin(req, res) {
   const { email, password } = req.body;
-
+  // console.log(req.body);
   // Validation
   if (!email || !password) {
     return res.status(400).json({ error: "Email and password are required" });
@@ -17,10 +17,10 @@ async function handleLogin(req, res) {
   }
 
   const isMatch = await user.comparePassword(password);
+
   if (!isMatch) {
     return res.status(401).json({ error: "Invalid credentials" });
   }
-
   // Create JWT token
   const token = jwt.sign(
     { userId: user._id, email: user.email, role: user.role },
