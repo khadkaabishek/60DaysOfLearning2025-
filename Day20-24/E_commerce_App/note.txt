@@ -1,0 +1,46 @@
+
+
+
+ 🌟 Day 24 of Learning 🌟
+
+Today, I focused on Implementing Logout Functionality and Designing Product Model for Admin 
+I worked on clearing JWT tokens from `localStorage` on logout and set up a Mongoose model for storing product details in the database.
+
+🎯 What I learned today:
+
+ 1. Logout Functionality with React + TypeScript
+
+ Created a `LogoutButton` that removes the `token` and `user` from `localStorage`.
+ Used `useNavigate()` to redirect the user to `/login` after logging out.
+ Ensured proper handling of null values using `??` and type-safe conditions.
+
+ 2. Secure Client-Side Logout
+
+ Made sure to only use keys (like `"token"` and `"user"`) when calling `localStorage.removeItem()`.
+ Cleaned up user session on logout for a better UX and security.
+
+3. Mongoose Product Model (Admin Panel)
+
+Defined a model for storing product details, including:
+
+ `name`: Name of the product
+ `description`: Product description
+ `price`: Numeric price
+ `category`: Product category
+ `image`: URL or path to the image
+
+Used `mongoose.Schema` with TypeScript types and enabled timestamps to track when items are added or updated.
+📌 Summary:
+
+✔ Built a logout flow with token and session cleanup
+✔ Redirected user on logout using React Router
+✔ Created a scalable product model using Mongoose and TypeScript
+✔ Followed best practices for type safety and localStorage handling
+
+Swipe left to see logout kode + product schema (^_^) 📦🛒
+
+
+
+
+
+
