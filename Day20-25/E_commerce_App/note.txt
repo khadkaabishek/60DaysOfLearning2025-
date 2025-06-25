@@ -1,0 +1,41 @@
+
+
+🌟 Day 25 of Learning 🌟
+
+Today, I focused on building backend logic for handling products** with image upload 
+functionality using Multer. I implemented an admin-friendly route to post new product items along with their details and images 📦🛒
+
+🎯 What I worked on today:
+
+1. Product Upload API (Node.js + MongoDB)
+   Created an Express route that allows the admin to post product details like:
+
+ `name`: Product name
+ `description`: Detailed info
+ `price`: Numeric value
+ `category`: Product type
+ `image`: File uploaded via Multer
+
+2. Image Handling with Multer
+   Used the `multer` package to
+
+ Accept image files from `form-data`
+ Store images in the `/uploads` folder
+ Save the image path to MongoDB for later access
+
+3. Testing with Postman
+
+ Sent form-data POST requests with image + text fields
+ Verified product creation and image storage
+ Ensured response contains all stored fields
+
+📌 Summary:
+✔ Created a backend API for posting product data
+✔ Integrated Multer for secure image uploads
+✔ Stored product entries in MongoDB with full details
+✔ Tested everything using Postman for smooth dev flow
+
+Swipe left to see the code for the route, controller, and upload middleware! (^_^) 🧪🚀
+
+
+
