@@ -30,7 +30,7 @@ navigate('/');
                 className="user-avatar"
               />
               <span className="user-name">{user.name || user.email}</span>
-              <button onClick={handleLogout} type="button">Logout</button>
+              <button onClick={handleLogout} type="button" className="logout-button">Logout</button>
             </div>
           ) : (
             <>

@@ -5,6 +5,7 @@ import Signup from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
 import Home from "./pages/Home";
 import MainLayout from "./layouts/MainLayout";
+import AddItem from "./pages/AddItem"; 
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(!!localStorage.getItem("token"));
@@ -56,6 +57,18 @@ function App() {
             )
           }
         />
+        <Route
+  path="/add-item"
+  element={
+    isAuthenticated ? (
+      <MainLayout>
+        < AddItem/>
+      </MainLayout>
+    ) : (
+      <Navigate to="/login" />
+    )
+  }
+/>
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
