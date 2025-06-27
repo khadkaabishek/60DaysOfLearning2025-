@@ -1,0 +1,22 @@
+
+
+🌟 Day 27 of Learning 🌟
+Today, I implemented essential backend routes to manage product data using Express 
+and MongoDB — enabling full CRUD control 🚀
+
+🎯 What I worked on:
+1.Built a GET /get_item route to fetch all products from the database
+
+2.Created a PATCH /patch_item route to update specific fields of a product
+
+3.Implemented PUT /put_item to fully replace product info
+
+4.Added DELETE /delete_item to remove products from the database
+
+✅ Summary:
+
+✔️ Developed multiple RESTful API endpoints for product management
+✔️ Handled invalid ObjectId errors gracefully with validation
+✔️ Tested all routes using Postman to ensure correct functionality
+
+Feeling confident as the backend foundation is getting stronger day by day! 🔧🔥
