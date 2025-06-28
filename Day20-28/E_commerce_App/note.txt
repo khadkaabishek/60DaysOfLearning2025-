@@ -1,0 +1,20 @@
+
+
+🌟 Day 28 of Learning 🌟  
+Today, I implemented role-based access control and key authentication middlewares to
+ enhance the security and functionality of my backend system 🚀
+
+🎯 What I worked on:  
+1. Built a middleware to check if a logged-in user has a valid JWT token during login.  
+2. Created a `restrictTo` function to differentiate between admin and normal users.  
+3. Allowed admin users to access special features by validating their roles.  
+4. Performed testing to verify authentication and authorization flows.
+
+✅ Summary:
+
+✔️ Developed secure login validation logic using JWT  
+✔️ Implemented role-based access control for admin privileges  
+✔️ Successfully tested protected routes to ensure correct behavior  
+
+Feeling great as access control and user management become more robust! 🔐⚙️
+
