@@ -1,0 +1,29 @@
+
+
+🌟 Day 30 of Learning 🌟
+Today, I worked on enhancing the frontend of my e-commerce platform using React by implementing
+ a dynamic product card system with role-based UI rendering 🚀
+
+🎯 What I worked on:
+
+1. Designed a reusable React component to display product information in a card layout.
+2. Loaded product images dynamically from the backend server using conditional rendering.
+3. Used `localStorage` to fetch and parse the logged-in user’s data and role.
+4. Displayed different button options based on user role:
+
+   * Admins see “Edit Info”
+   * Normal users see “Buy Now”
+5. Built a responsive header with conditional navigation links and user avatar display.
+
+
+✅ Summary:
+
+✔️ Created a clean UI for displaying product cards
+✔️ Enabled role-based button actions using user role stored in `localStorage`
+✔️ Improved UX with dynamic header controls and navigation
+✔️ Strengthened frontend logic by separating admin and user interactions
+
+Feeling great to see the frontend behaving differently for admins and customers! 🎨🛍👥
+
+Swipe right to view Sample Design and Kode (^_^)
+
