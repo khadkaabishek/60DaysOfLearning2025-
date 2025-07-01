@@ -1,0 +1,30 @@
+
+
+🌟 Day 31 of Learning 🌟
+Today, I worked on enhancing the frontend experience by implementing dynamic rendering for
+ single product views and setting up navigation logic using React’s powerful routing tools ⚙️🎯
+
+🎯 What I worked on:
+
+1. Implemented logic to send the clicked product’s ID from card components.
+2. Used `useNavigate` to route users to the single item detail page based on the selected product.
+3. Handled data passing either through props or by fetching via the backend using the product ID.
+4. Designed a clean and simple UI layout to display detailed product info – even looks cool with dummy data! 😄
+5. Applied conditional rendering for admin and regular users:
+
+   * Admins can see “Edit Content” buttons.
+   * Users get “Buy Now” and “Add to Cart” options.
+
+✅ Summary:
+
+✔️ Created navigation logic to render a single item dynamically
+✔️ Set up backend-response handling to fetch and display the product data
+✔️ Built a user-role-specific UI using data from `localStorage`
+✔️ Strengthened routing with `useParams` and `useNavigate`
+✔️ Ensured admin/user role logic is clearly reflected in the UI
+
+Super happy to see the components working together and the UI adapting based on user roles! 🙌🛒👨‍💼
+
+Swipe right to view Sample Design and Kode (^_^)
+
+
