@@ -1,0 +1,26 @@
+
+🌟 Day 32 of Learning 🌟
+Today, I worked on enhancing the frontend experience of the cart management system by allowing users
+ to select item quantities and add them to the cart (backend still in progress) 🛒⚙️
+
+🎯 What I worked on:
+
+1. Implemented quantity selector logic where users can only pick between **1** and the product’s `noOfQuantityAvailable`.
+2. Designed and integrated an intuitive UI on the product detail page for choosing item quantity with `+` and `–` buttons.
+3. Created an “Add to Cart” mechanism that sends the selected quantity along with the product details to the backend (to be implemented).
+4. Displayed `noOfQuantityAvailable` clearly on the item display section to guide users and limit invalid purchases.
+5. Maintained conditional rendering based on user role:
+
+✅ Summary:
+
+✔️ Built logic to enforce quantity range based on available stock
+✔️ Enhanced UI to allow quantity selection with stock awareness
+✔️ Ensured role-specific features are clearly accessible
+✔️ Prepared frontend POST structure for cart management (awaiting backend)
+✔️ Refined the product display to include stock availability hints
+
+Loving the progress! The cart UI now feels more realistic and smarter for user interactions 🙌✨
+
+Swipe right to view Sample Design and Kode (^_^)
+
+
