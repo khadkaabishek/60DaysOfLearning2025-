@@ -1,0 +1,25 @@
+
+🌟 Day 35 of Learning 🌟
+Today, I worked on enhancing the Admin Product Edit feature 🛠️ — now admins can update existing 
+product details easily if they made any mistakes or want to make changes later. This makes the platform 
+more flexible and reduces the chance of stale or incorrect information being shown to users. ⚙️
+
+🎯 What I worked on:
+
+1. Fetched existing product data using a secure `GET` request and pre-filled it into an editable form.
+2. Allowed admins to update name, description, price, quantity, and category fields.
+3. Integrated image file upload functionality using `multipart/form-data` and `multer` in the backend.
+4. Used a `PUT` route (`/api/put_item/:id`) to send the updated form data and new images to the server.
+5. Ensured successful image handling, validation, and proper updates in the database.
+
+✅ Summary:
+
+✔️ Enabled dynamic product editing for admin dashboard
+✔️ Used `FormData` to support both text and image upload
+✔️ Backend enhanced with `multer` and validation checks
+✔️ Improved admin control over product accuracy and updates
+
+Loving the progress! The admin panel now feels more **powerful and real-world ready** for product management 🚀🛍️
+
+Swipe to see kode Snippets (^_^) 💻
+
