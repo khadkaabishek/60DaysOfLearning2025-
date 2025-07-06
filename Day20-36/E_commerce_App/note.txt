@@ -1,0 +1,27 @@
+
+
+🌟 Day 36 of Learning 🌟
+Today, I implemented a confirmation popup system for deleting products 🗑️ — now users must
+ explicitly confirm before any item is removed. This adds a much-needed safety check and prevents
+  accidental deletions, enhancing the overall UX and platform integrity. 🔒
+
+🎯 What I worked on:
+
+1. Added a modal popup that appears when the "Delete" button is clicked.
+2. The popup asks for confirmation with two choices: Yes, Delete and Cancel.
+3. If the user confirms, the item is deleted via a secure `DELETE` request.
+4. Implemented logic to allow deletion only if the product was uploaded by the logged-in seller.
+5. Secured the backend route to verify product ownership using JWT token authorization.
+
+✅ Summary:
+
+✔️ Integrated confirmation modal for critical delete action
+✔️ Restricted delete access to only the original owner/seller
+✔️ Backend now cross-checks the token user ID with the product's `owner` field
+✔️ Improved trust and safety in the seller experience 👨‍💼
+
+The seller dashboard is shaping up well — with strong control over their own products and intuitive UX! 🛍️🧠
+
+Swipe to see kode Snippets and the popup UI in action! 💻✨
+
+    
