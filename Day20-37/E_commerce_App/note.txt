@@ -1,0 +1,26 @@
+
+
+🌟 Day 37 of Learning 🌟
+Today, I focused on enhancing the seller experience and visibility on the platform 🛠️ 
+— now sellers can view and manage only their own products, and product details include 
+real seller identity for transparency and trust. 👤📦
+
+🎯 What I worked on:
+
+1. Implemented logic to allow sellers to edit a product only if they are the original uploader.
+2. Created a dedicated page that displays products uploaded only by the logged-in seller.
+3. Used Mongoose’s `.populate()` method to display the actual seller’s name and email 
+   on product detail pages.
+4. Fixed several backend and frontend bugs missed during earlier development phases.
+
+✅ Summary:
+
+✔️ Sellers can now only edit their own products — improving security and role-based control
+✔️ Built a clean seller-only product listing page for focused management
+✔️ Added clarity and trust by showing seller info (name & email) via `.populate()`
+✔️ Resolved some silent bugs and issues for smoother performance 🛠️✨
+
+Seller management features are becoming robust and seller-centric — excited to keep building! 💼🛒
+Stay tuned for more UI enhancements and dashboard updates! 🎨🚀
+
+

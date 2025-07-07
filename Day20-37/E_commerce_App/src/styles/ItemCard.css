@@ -1,0 +1,120 @@
+.card-row {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+    overflow-x: auto;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+    width: 220px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgb(0 0 0 / 0.15);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #fff;
+  }
+  
+  .card-details {
+    padding: 1rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    height: 3em; /* limit lines */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .card-desc {
+    font-size: 0.85rem;
+    color: #555;
+    margin-bottom: 0.75rem;
+    height: 3em; /* limit lines */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .card-price-section {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .price {
+    color: #e67e22;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 0.9rem;
+  }
+  
+  .discount {
+    color: #27ae60;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  
+  .card-buttons {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .btn {
+    flex: 1;
+    padding: 0.5rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+    font-size: 0.9rem;
+  }
+  
+  .buy-btn {
+    background-color: #ff9900;
+    color: white;
+  }
+  
+  .buy-btn:hover {
+    background-color: #cc7a00;
+  }
+  
+  .view-btn {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+  }
+  
+  .view-btn:hover {
+    background-color: #ddd;
+  }
+  
