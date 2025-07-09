@@ -1,0 +1,21 @@
+
+🌟 Day 38 of Learning 🌟
+Today, I focused on building the backend functionality for user interactions 🛠️
+— now users can engage with products more meaningfully through likes and comments,
+ all while maintaining secure authentication. 💬❤️🔐
+
+🎯 What I worked on:
+1. Designed and created a Mongoose model for interactions with attributes like `isLiked`, `comment`, `user`, and `product`.
+2. Built controllers for fetching and posting interactions — enabling real-time engagement from users.
+3. Separated JWT token verification into its own reusable middleware function for clean and secure user authentication.
+4. Used Postman to rigorously test all API routes and ensure accurate request/response cycles.
+
+✅ Summary:
+✔️ Structured interaction model to support likes and comments per product
+✔️ Developed controller logic for smooth CRUD operations on interactions
+✔️ Implemented robust token verification for secure and authenticated endpoints
+✔️ Verified backend logic and stability using Postman tests 🔁🧪
+
+The interaction system is now live and scalable — paving the way for richer user engagement! 🚀
+Next up: syncing these features into the frontend for seamless user experience! 🌐✨
+
