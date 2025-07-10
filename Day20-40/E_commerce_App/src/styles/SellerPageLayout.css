@@ -1,0 +1,38 @@
+
+.seller-layout {
+    min-height: 100vh;
+    background-color: #f9fafb;
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .seller-header {
+    background: white;
+    padding: 16px 32px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .seller-header h1 {
+    color: #f97316; /* orange */
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .seller-main {
+    flex-grow: 1;
+    max-width: 1024px;
+    margin: 40px auto;
+    padding: 0 16px;
+    width: 100%;
+  }
+  
+  .seller-footer {
+    background: #f3f4f6;
+    text-align: center;
+    font-size: 14px;
+    padding: 16px 0;
+    color: #6b7280;
+  }
+  
