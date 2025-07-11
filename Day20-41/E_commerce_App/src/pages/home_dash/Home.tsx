@@ -9,16 +9,15 @@ const Home: React.FC = () => {
 
   return (
     <section id="home-section" className="home-section">
-      <h1 id="home-title" className="home-title">Welcome to E-Shop</h1>
-      <p id="home-subtitle" className="home-subtitle">Your one-stop shop for all your needs.</p>
+      <h1 id="home-title" className="home-title">Welcome to <span className="highlight">E-Shop</span></h1>
+      <p id="home-subtitle" className="home-subtitle">Your one-stop shop for all your needs. Discover top-quality products at unbeatable prices.</p>
 
       <div id="home-buttons" className="home-buttons">
         {isLoggedIn ? (
-          user && user.role === "admin" ? (
+          user && user.role === "seller" ? (
             <Link to={`/${user.id}/my_items`} id="get-started-btn" className="btn btn-primary">
               Get Started (Seller)
-           </Link>
-
+            </Link>
           ) : (
             <Link to="/dashboard" id="get-started-btn" className="btn btn-primary">
               Get Started

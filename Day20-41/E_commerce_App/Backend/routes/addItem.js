@@ -25,7 +25,7 @@ router.post(
   "/add_item",
   upload.single("image"),
   protect,
-  restrictTo("admin"),
+  restrictTo("admin", "seller"),
   createProduct
 );
 
@@ -34,12 +34,22 @@ router.get("/get-item/:id", getSingleItem);
 router.put(
   "/put_item/:id",
   protect,
-  restrictTo("admin"),
+  restrictTo("admin", "seller"),
   upload.array("images", 5),
   putProduct
 );
-router.patch("/patch_item/:id", protect, restrictTo("admin"), patchProduct);
-router.delete("/delete_item/:id", protect, restrictTo("admin"), deleteProduct);
+router.patch(
+  "/patch_item/:id",
+  protect,
+  restrictTo("admin", "seller"),
+  patchProduct
+);
+router.delete(
+  "/delete_item/:id",
+  protect,
+  restrictTo("admin", "seller"),
+  deleteProduct
+);
 router.get("/:id/get-my-items", getMyItems);
 
 router.get("/:id/interaction", getInteraction);

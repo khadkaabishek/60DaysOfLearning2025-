@@ -32,7 +32,7 @@ const Header: React.FC = () => {
   const [cartItems, setCartItems] = useState<CartItemType[]>([]);
 
   const fetchCart = async () => {
-    if (!user?.id || user.role === "admin") return;
+    if (!user?.id || user.role === "seller") return;
     try {
       const res = await fetch(`http://localhost:5001/cart/${user.id}`, {
         method: "GET",
@@ -68,7 +68,7 @@ const Header: React.FC = () => {
 
         {token && user && (
           <nav className="nav-links">
-            {user.role === "admin" && (
+            {user.role === "seller" && (
               <>
                 <button
                   className="btn nav-btn"

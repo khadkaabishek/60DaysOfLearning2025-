@@ -206,7 +206,7 @@ const ProductDetail: React.FC = () => {
           </div>
 
           <div className="action-buttons-row">
-            {user?.role === "admin" ? (
+            {user?.role === "seller" ? (
               <div className="admin-buttons">
                 <button className="edit-btn" onClick={() => handleEdit(product)}>
                   Edit Content

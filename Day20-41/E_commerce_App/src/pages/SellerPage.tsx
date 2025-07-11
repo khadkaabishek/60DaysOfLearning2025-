@@ -1,4 +1,4 @@
-// src/pages/SellerPage.tsx
+
 import React from "react";
 import SellerPageLayout from "../components/SellerPageLayout";
 import HeroSection from "../components/HeroSection";

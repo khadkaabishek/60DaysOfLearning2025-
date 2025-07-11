@@ -60,7 +60,7 @@ const AddItem: React.FC = () => {
         setFile(null);
       }
     } catch (err) {
-      if (err instanceof Error) w(err.message);
+      if (err instanceof Error) return (err.message);
       else alert("An unexpected error occurred.");
     }
   };

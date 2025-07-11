@@ -62,7 +62,7 @@ const ItemCard: React.FC<ItemCardProps> = ({ prodData }) => {
               )}
             </div>
             <div className="card-actions">
-              {user?.role === "admin" ? (
+              {user?.role === "seller" ? (
                 <button className="btn edit-btn" onClick={() => handleEdit(item)}>
                   Edit Info
                 </button>
