@@ -1,0 +1,26 @@
+
+🌟 Day 42 of Learning* 🌟
+Today, I focused on building the backend logic to securely handle and process seller 
+application data.This completes the other half of the seller onboarding system, making 
+it production-ready and robust! ⚙️🔐🚀
+
+🎯 What I worked on:
+
+1. Integrated `multer` middleware to handle and store image uploads (NID front, NID back,
+ address proof) using `multipart/form-data`.
+2. Sent form data from the frontend using `fetch()` and successfully received and processed
+ it on the backend.
+3. Validated and saved the submitted seller information (email, phone, address, documents)
+ into the MongoDB schema.
+4. Used Postman to test and manage API endpoints for various use cases — ensuring smooth 
+communication between client and server.
+
+✅ Summary:
+✔️ Built a secure and efficient route for seller onboarding using Express + Multer
+✔️ Verified that file uploads and form data are correctly handled and stored
+✔️ Connected frontend and backend seamlessly with dynamic fetch requests
+✔️ Ensured everything works reliably through API testing in Postman
+
+I'm thrilled to see the full seller onboarding flow now working end-to-end — from the React
+UI to the database! Next, I’ll explore building admin review functionality and status updates. 💡📈🧠
+
