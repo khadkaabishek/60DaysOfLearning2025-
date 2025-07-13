@@ -1,0 +1,33 @@
+
+🌟 Day 43 of Learning 🌟
+Today, I focused on building the frontend for the Admin Panel, which becomes accessible 
+only when an authenticated user with the `admin` role logs in. This marks the beginning of c
+entralized control for managing users, sellers, and requests. 🛡️🧑‍💻📊
+
+🎯 What I worked on:
+
+1. Added role-based routing logic to ensure that only admins are routed to the admin dashboard 
+   after login.
+2. Implemented a loading component to verify user role before rendering admin views, adding an
+    extra layer of UI safety.
+3. Created structured pages for:
+
+   * User Management**: View all registered customers.
+   * Sellers Section**: Monitor onboarded sellers.
+   * Requests Section**: Review and approve pending seller requests.
+
+✅ Summary:
+✔️ Setup conditional routing based on user role (admin only access)
+✔️ Created essential views for users, sellers, and request monitoring
+✔️ Established a scalable frontend structure for admin functionalities
+✔️ Improved UX with loading logic to prevent flicker during verification
+
+This admin dashboard sets the stage for a complete seller approval flow and efficient platform moderation.
+ Coming up: backend logic for reviewing and approving/rejecting seller requests! 🚀📥🛒
+
+ swipe left to view kode ^_^
+
+
+
+
+
