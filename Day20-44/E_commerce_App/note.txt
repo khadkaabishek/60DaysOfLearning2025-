@@ -1,0 +1,27 @@
+
+🌟 Day 44 of Learning 🌟
+Today, I focused on building the backend logic for the Admin Panel — specifically
+enabling seller application management by admins. This completes the backend fo-
+undation needed to power the seller approval flow. 🧠💾🚦
+
+🎯 What I worked on:
+
+1. Linked each seller application with a specific user by adding `userID` as a 
+reference from the User model — making it easier to track and separate applicants.
+2. Built a controller to fetch all seller application requests for admin review.
+3. Added a `PATCH` route to allow the admin to approve or reject seller 
+requests from the frontend with a simple click.
+4. Thoroughly tested all routes and controller logic using Postman, ensuring
+ stable API functionality.
+
+✅ Summary:
+✔️ Connected applications to users using a reference field
+✔️ Created API to fetch all pending/processed seller requests
+✔️ Enabled status update (approve/reject) directly via PATCH endpoint
+✔️ Verified backend logic and endpoints with Postman for smooth integration
+
+With this, the backend logic for seller moderation is in place! Next up: connecting 
+everything with the frontend for a seamless admin experience. 🚀📡🛍️
+
+swipe left to view kode^_^
+
