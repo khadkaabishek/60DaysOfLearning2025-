@@ -1,0 +1,22 @@
+
+
+🌟 Day 45 of Learning 🌟
+Today, I continued enhancing the Admin Panel by integrating core backend logic — allowing admins to view and manage users and sellers seamlessly. This strengthens the control layer of the application, making moderation more efficient. 🧠🔍🛠️
+
+🎯 What I worked on:
+
+1. Learned and used `.select("-password")` to exclude sensitive password fields when querying user data — improving security in API responses.
+2. Fetched and displayed data from the database for both users and sellers, enabling a centralized view of platform participants.
+3. Added logic to change a user’s role to `seller` **only** if their application is verified — ensuring controlled and secure onboarding of new sellers.
+
+✅ Summary:
+✔️ Applied `.select()` to sanitize user data from the database
+✔️ Connected frontend with backend routes to display user and seller info
+✔️ Implemented verification logic to elevate users to sellers upon approval
+
+With this, the admin portal is now more functional and secure. Next step: polishing the UI and refining the seller onboarding workflow! 🚀📋🛡️
+
+Swipe left to view kode^\_^
+
+#LSPPDay45 #60DaysOfLearning2025 #LearningWithLeapfrog #AdminDashboard #MERNStack #ReactJS #NodeJS #BackendDevelopment
+
