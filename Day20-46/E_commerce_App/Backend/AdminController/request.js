@@ -46,7 +46,7 @@ async function updateRequestStatus(req, res) {
       await MyNotification.create({
         user: id,
         message:
-          "Your request to be seller has been Rejected , fillup the form again with correct formation ",
+          "Your request to be seller has been Rejected , fillup the form again with correct information ",
         from: "686160b656334582e44785b8",
       });
     }
