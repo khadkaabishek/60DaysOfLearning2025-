@@ -1,0 +1,26 @@
+🌟 Day 47 of Learning 🌟
+Today, I focused on tightening up the user–seller communication flow in my platform 
+— making sure the right email shows up in the right place, and that users get timely
+ confirmation emails when they sign up or log in. These changes reduce confusion and 
+ build trust in the system. ✉️✅💡
+ 🎯 What I worked on:
+
+1. Replaced user email with the seller’s official email in relevant views and API 
+responses to avoid identity confusion — especially important when admins or buyers
+ interact with multiple sellers.
+2. Implemented automated emails after successful signup and login, so users receive
+ confirmation and a friendly “you’re in!” message. (Helps with onboarding, trust,
+  and troubleshooting login issues.)
+3. Improved the UI for better UX**, polishing layout spacing, labels, and message 
+clarity where emails appear. Reduced visual noise and made status/ownership clearer.
+
+
+✅ Summary:
+
+✔️ Eliminated email mix-ups by showing the correct seller email in UI & data flows.
+✔️ Added post-signup and post-login email confirmations.
+✔️ Polished UI elements to make ownership and actions clearer to users.
+
+Swipe left to view kode & demo ^_^
+
+
