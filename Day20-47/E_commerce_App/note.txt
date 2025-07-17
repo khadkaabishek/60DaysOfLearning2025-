@@ -11,7 +11,7 @@ responses to avoid identity confusion — especially important when admins or bu
 2. Implemented automated emails after successful signup and login, so users receive
  confirmation and a friendly “you’re in!” message. (Helps with onboarding, trust,
   and troubleshooting login issues.)
-3. Improved the UI for better UX**, polishing layout spacing, labels, and message 
+3. Improved the UI for better UX, polishing layout spacing, labels, and message 
 clarity where emails appear. Reduced visual noise and made status/ownership clearer.
 
 
