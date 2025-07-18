@@ -1,0 +1,26 @@
+
+🌟 Day 53 of Learning 🌟
+Today, I focused on the seller-side functionality for reviewing
+ and managing incoming orders. This marks an important milesto-
+ ne toward giving sellers full control over their sales and bi-
+ lling. 🧾📦🧑‍💻
+
+🎯 What I worked on:
+
+1. Created a dedicated Orders section for sellers, where they -
+   can view all incoming orders placed by buyers.
+2. Integrated a detailed Bill section, displaying full purchase 
+   details including items, quantity, price, and buyer info he-
+   lping sellers stay informed and organized.
+
+✅ Summary:
+
+✔️ Empowered sellers with a clear view of their incoming orders.
+✔️ Built a comprehensive bill display for transaction-level cla-
+   rity.
+✔️ Laid the groundwork for seller-side delivery status and upda-
+   tes (coming tomorrow!).
+
+Swipe left to view kode & demo ^\_^
+Excited to keep building — delivery management next! 🚀📮
+
