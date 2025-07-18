@@ -1,0 +1,27 @@
+
+
+🌟 Day 48 of Learning 🌟
+Today, I focused on building a smooth and intuitive Cart UI to
+prepare users for the payment process. A clear cart experience 
+setsthe tone for confident checkout — and I’m hyped for what’s
+coming next! 🛒💳🔥
+
+🎯 What I worked on:
+
+1. Designed a clean and functional Cart UI, split into two sections
+ for better clarity — one for items and one for billing.
+2. Added a Bill Summary section that clearly shows the total cost a
+ user has to pay.
+3. Introduced a default shipping fee of ₹100, which gets added auto-
+matically to every order (for now — dynamic shipping coming soon 👀).
+
+✅ Summary:
+
+✔️ Built the Cart screen with a dual-pane layout: items + billing.
+✔️ Integrated a clear cost breakdown including product price + shipping.
+✔️ Applied a default ₹100 shipping fee to prep the billing logic for fut-
+ure enhancements.
+
+Excited to connect this with the payment flow next! Let’s gooo 🚀💡
+Swipe for preview 🧾
+
