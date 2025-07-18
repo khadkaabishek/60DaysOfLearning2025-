@@ -1,0 +1,27 @@
+
+🌟 Day 50 of Learning 🌟
+Today, I focused on building the backend functionality for placing 
+orders, moving one step closer to a complete and functional check-
+out flow. This part ensures that user purchases are securely stor-
+ed and managed in the system. 🛠️📦🧾
+
+🎯 What I worked on:
+
+1. Sent order data to the backend using structured APIs triggered 
+   from the frontend.
+2. Created a robust Order Schema, referencing both the user and the
+   product for accurate relational mapping.
+3. Structured the routing using an MVC architecture, improving code 
+   organization, scalability, and maintainability.
+
+✅ Summary:
+
+✔️ Connected frontend checkout to backend order handling via APIs.
+✔️ Built a clean and relational database schema for storing order 
+   details.
+✔️ Improved backend architecture using MVC principles for clearer 
+   flow and future flexibility.
+
+Swipe left to view kode & demo ^\_^
+Excited for what’s next — integrating order status tracking and admin handling soon! 🚀📦
+
