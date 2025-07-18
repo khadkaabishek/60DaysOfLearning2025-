@@ -1,0 +1,29 @@
+
+🌟 Day 52 of Learning 🌟
+Today, I continued working on both the frontend and backend of 
+the order placement flow, making meaningful progress to ensure 
+a smoother user experience and better data handling. Orders are
+now visible to buyers — we’re getting closer to a full transa-
+ction cycle! 🛒💻✅
+
+🎯 What I worked on:
+
+1. Made slight adjustments to the Order Schema — took a snapshot
+ of the cart at order time to preserve order state and allow safe
+  cart deletion post-checkout.
+2. Created a dedicated "My Orders" page where buyers can view all
+ their previously placed orders, complete with key details and c-
+ larity.
+
+✅ Summary:
+
+✔️ Improved order data consistency with a snapshot approach for bet-
+ter UX.
+✔️ Enabled buyers to view their full order history via the new "My -
+Orders" screen.
+✔️ Set the stage for seller-side order management (coming next!).
+
+Swipe left to view kode & demo ^_^
+Excited to continue — sellers will start managing their orders tomor-
+row! 🚀📦
+
