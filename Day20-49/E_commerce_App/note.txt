@@ -1,0 +1,24 @@
+
+🌟 Day 49 of Learning 🌟
+Today, I focused on building out the Checkout UI to ensure users 
+have a clear and smooth experience while placing their orders. This-
+stage is crucial — it captures user details and confirms the final 
+bill before payment. 🧾📦✨
+
+🎯 What I worked on:
+
+1.Designed a clean, two-part Checkout UI — one side for the input
+  form, the other for billing clarity.
+2.Created an input form for users to enter their contact details
+  like name, phone, and address.
+3.Added a Bill Summary section to clearly show the total cost, in-
+  cluding product price and shipping.
+
+✅ Summary:
+
+✔️ Built a dual-pane Checkout layout: contact form + bill breakdown.
+✔️ Integrated contact detail collection into the order flow.
+✔️ Made sure users can review charges before confirming their order.
+
+Swipe left to view kode & demo ^_^
+Excited for what’s next — connecting this to order placement logic! 🚀💡
