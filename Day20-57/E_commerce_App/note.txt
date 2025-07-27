@@ -1,0 +1,25 @@
+
+
+🌟 Day 57 of Learning 🌟
+Today, I explored OAuth 2.0, a widely used method for seamless authentication 
+and authorization — the tech behind those familiar "Login with Google/Facebook"
+buttons we see every day. 🔐🌐✨
+
+🎯 What I worked on:
+
+1. Understood the OAuth 2.0 flow — including how authorization codes are generated,
+   verified, and saved to the project server.
+2. Set up my first Google OAuth Client ID via the Google Cloud Console.
+3. Rendered a basic Google sign-in button and successfully triggered the account 
+   selection UI.
+4. Encountered a COOP-related error — but noted it as a minor issue for later 
+   resolution.
+
+✅ Summary:
+
+✔️ Gained a solid foundation on how modern third-party login systems work.
+✔️ Took the first hands-on steps toward integrating Google sign-in in a MERN project.
+✔️ Boosted confidence to implement full OAuth login flows soon.
+
+Next up: Debug the COOP error and connect the OAuth data to backend storage! 🚀🔧🧠
+
