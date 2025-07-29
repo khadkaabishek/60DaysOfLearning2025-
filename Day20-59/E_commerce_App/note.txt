@@ -1,0 +1,31 @@
+
+🌟 Day 59 of Learning 🌟
+Today, I focused on debugging and resolving a few issues that surfaced 
+after recent changes in my codebase. It was a productive session of r-
+efining and polishing key components. 🛠️🧠✨
+
+🎯 What I worked on:
+
+1. Fixed a re-rendering issue caused by the Draggable Price Filter — r-
+   esolved it by wrapping the `onPriceChange` function in a `useCallback` 
+   hook to prevent infinite loops.
+2. Resolved a mismatch between `_id` and `id` in the Google login flow —
+   I was expecting `id`, but MongoDB returns `_id`. Also updated the user 
+   schema to include a new attribute, and handled it cleanly in the back-
+   end logic.
+3. Fixed a UI issue where longer-named products in the bill were overflo-
+   wing or floating out of layout bounds — applied proper styling to keep 
+   things tidy.
+
+✅ Summary:
+
+✔️ Prevented infinite re-renders in the price filter with a proper useCall
+   back setup.
+✔️ Aligned Google OAuth response handling with the correct MongoDB `_id` 
+   field.
+✔️ Improved product bill layout to support long names gracefully.
+
+Much excited to host this project live soon! ^_^ 🎉
+
+
+
