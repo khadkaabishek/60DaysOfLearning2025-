@@ -1,0 +1,23 @@
+
+🌟 Day 60 of Learning 🌟
+Today, I explored Nodemailer, a popular Node.js library used for sending emails via SMTP. It was an exciting session integrating this feature into my user signup flow, bringing the backend and frontend together seamlessly. 📬⚙️💻
+
+🎯 What I worked on:
+
+1. Learned how Nodemailer works — including transporter setup and sending test emails via SMTP.
+2. Integrated Nodemailer in the signup flow, sending a confirmation email upon successful registration.
+3. Made changes to the User model to accommodate email-related data handling.
+4. Updated the **UI for signup** to reflect the new email notification system.
+
+✅ Summary:
+
+✔️ Successfully sent transactional emails using Nodemailer.
+✔️ Refactored the user model to better support email communication.
+✔️ Improved the signup UI for a more polished user experience.
+
+Even though its day 60, last date of leapfrog but not mine 
+Next up: Forget Password Section — can't wait to build and test it! 🔐
+Much excited to see the authentication system coming to life! 🚀
+
+#NodeMailer #ExpressJS #Day60 #111DaysOfLearningForChange #BackendDevelopment #EmailIntegration
+
