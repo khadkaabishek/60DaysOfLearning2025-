@@ -1,5 +1,5 @@
 
-🌟 Day 60 of Learning 🌟
+🌟 Day 106 of Learning 🌟
 Today, I explored Nodemailer, a popular Node.js library used for sending emails via SMTP. It was an exciting session integrating this feature into my user signup flow, bringing the backend and frontend together seamlessly. 📬⚙️💻
 
 🎯 What I worked on:
