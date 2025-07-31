@@ -1,0 +1,21 @@
+
+
+🌟 Day 61 of Learning 🌟
+Today was all about forgetting passwords — without worry! 🔐💡 I finally implemented the "Forgot Password" functionality, completing one of the most important parts of the user authentication system. From UI tweaks to stubborn API bugs, today was a battle I won with code and coffee! ☕👨‍💻
+
+🎯 What I worked on:
+
+1. Implemented the "Forgot Password" flow with OTP verification and password reset.
+2. Updated the Login UI to support conditional rendering for Forgot Password mode.
+3. Faced and fixed some relentless API issues that didn’t want to cooperate at first — but persistence paid off!
+4. Reused logic smartly while also writing new service functions for clean separation of concerns.
+
+✅ Summary:
+
+✔️ Users can now request an OTP and reset their password safely.
+✔️ UI looks cleaner and more dynamic with conditional states for Login/Forgot modes.
+✔️ Backend APIs now behave as expected after tough debugging sessions.
+✔️ A bit of repetition in code — but everything works, and it's modular now.
+
+Even though the Leapfrog deadline passed, my learning hasn’t — I'm still going strong!
+Next up: Better error handling and final polish on the full auth flow! 🚀
